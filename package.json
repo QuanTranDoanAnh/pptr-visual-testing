@@ -1,0 +1,27 @@
+{
+  "name": "pptr-visual-testing",
+  "version": "1.0.0",
+  "description": "Puppeteer Visual Regression testing + Percy",
+  "main": "index.js",
+  "scripts": {
+    "test-snapshots": "jest --config=jest.config.js --detectOpenHandles --forceExit",
+    "test-snapshots-update": "jest --config=jest.config.js --updateSnapshot --detectOpenHandles --forceExit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/QuanTranDoanAnh/pptr-visual-testing.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/QuanTranDoanAnh/pptr-visual-testing/issues"
+  },
+  "homepage": "https://github.com/QuanTranDoanAnh/pptr-visual-testing#readme",
+  "dependencies": {
+    "jest": "^29.7.0",
+    "jest-image-snapshot": "^6.2.0",
+    "prettier": "^3.0.3",
+    "puppeteer": "^21.3.5"
+  }
+}
